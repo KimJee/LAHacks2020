@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  QuarenTEAM
+//  QuarenTIME
 //
-//  Created by Jee Hoon Kim on 3/28/20.
-//  Copyright © 2020 Cashew Natalia & Jee. All rights reserved.
+//  Created by Kastur Koul on 3/27/20.
+//  Copyright © 2020 Kastur Koul. All rights reserved.
 //
 
 import UIKit
