@@ -25,7 +25,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        arrayOfNames = ["First","Second","Third"]
+        
+        // Probably add a , "Fourth" here
+        arrayOfNames = ["First","Second","Third", "Drawing"]
+       // arrayOfNames = ["Drawing"]
+
     }
 
     @IBAction func ButtonPressed(_ sender: Any) {
@@ -93,6 +97,14 @@ class ViewController: UIViewController {
         
         twoLinerOutput.text = jokeBank[numberOfJokes]
     }
+
+    /*
+     
+     Natalia's Drawing App
+     
+     */
+    
+    
     
 }
 
