@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE732C7243082D200570910 /* ItsCorona.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE732C6243082D200570910 /* ItsCorona.png */; };
+		2FE732C92430842500570910 /* button_down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FE732C82430842500570910 /* button_down.jpg */; };
 		7C26FB3224303D2200679F1F /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB3124303D2200679F1F /* DrawViewController.swift */; };
 		7C26FB342430493400679F1F /* NapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB332430493400679F1F /* NapViewController.swift */; };
 		7C26FB362430499900679F1F /* SecondNapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB352430499900679F1F /* SecondNapViewController.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FE732C6243082D200570910 /* ItsCorona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItsCorona.png; sourceTree = "<group>"; };
+		2FE732C82430842500570910 /* button_down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button_down.jpg; sourceTree = "<group>"; };
 		7C26FB3124303D2200679F1F /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawViewController.swift; path = ../../Nat1/DrawingApp/DrawViewController.swift; sourceTree = "<group>"; };
 		7C26FB332430493400679F1F /* NapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NapViewController.swift; sourceTree = "<group>"; };
 		7C26FB352430499900679F1F /* SecondNapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondNapViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				7C544097242FEAA800F0B848 /* Assets.xcassets */,
 				7C544099242FEAA800F0B848 /* LaunchScreen.storyboard */,
 				7C54409C242FEAA800F0B848 /* Info.plist */,
+				2FE732C82430842500570910 /* button_down.jpg */,
+				2FE732C6243082D200570910 /* ItsCorona.png */,
 				7C26FB3B24304CAB00679F1F /* alarm.mp3 */,
 				7C26FB3924304CA900679F1F /* fireplace.mp3 */,
 				7C26FB3824304CA800679F1F /* rain.mp3 */,
@@ -259,9 +265,11 @@
 				7C54409B242FEAA800F0B848 /* LaunchScreen.storyboard in Resources */,
 				7C26FB3D24304CAB00679F1F /* rain.mp3 in Resources */,
 				7C26FB3E24304CAB00679F1F /* fireplace.mp3 in Resources */,
+				2FE732C92430842500570910 /* button_down.jpg in Resources */,
 				7C26FB3C24304CAB00679F1F /* waterfall.mp3 in Resources */,
 				7C26FB4024304CAB00679F1F /* alarm.mp3 in Resources */,
 				7C26FB3F24304CAB00679F1F /* rainforest.mp3 in Resources */,
+				2FE732C7243082D200570910 /* ItsCorona.png in Resources */,
 				7C544098242FEAA800F0B848 /* Assets.xcassets in Resources */,
 				7C544096242FEAA500F0B848 /* Main.storyboard in Resources */,
 			);
@@ -467,7 +475,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLQ646T869;
 				INFOPLIST_FILE = QuarenTEAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jee-Kim.QuarenTEAM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +494,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLQ646T869;
 				INFOPLIST_FILE = QuarenTEAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jee-Kim.QuarenTEAM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
