@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         "Someone stole my mood ring!\n I don't know how to feel about that.",
         "A Roman legionnaire walks into a bar, holds up two fingers, \nand says 'Five beers please'.",
         "Someone stole my Microsoft Office. \nThey're gonna pay. \nYou have my Word."]
+    
+    let firstPartKK = "Who's There?"
+    let secondPartKK = "Yah who?"
 
     override func viewDidLoad() {
         super.viewDidLoad()
