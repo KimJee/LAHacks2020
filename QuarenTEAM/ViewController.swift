@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var movieSuggest: UILabel!
-    
     @IBOutlet weak var twoLinerOutput: UILabel!
     
     var arrayOfNames = [String]()
@@ -28,7 +27,10 @@ class ViewController: UIViewController {
         
         // Probably add a , "Fourth" here
         //arrayOfNames = ["First","Second","Third", "Drawing"]
-        arrayOfNames = ["Drawing"]
+        //arrayOfNames = ["Drawing", "Joke", "Movies", "Nap"]
+        arrayOfNames = ["Joke"]
+        
+        // our arrayOfNames must be segway name
 
     }
 
@@ -37,9 +39,11 @@ class ViewController: UIViewController {
         let randomNumber = Int(arc4random() % numberOfNames)
         let vcName = arrayOfNames[randomNumber]
         
-        let vc = storyboard?.instantiateViewController(withIdentifier: vcName)
+       // let vc = storyboard?.instantiateViewController(withIdentifier: vcName)
+       // self.present(vc!, animated: true, completion: nil)
         
-        self.present(vc!, animated: true, completion: nil)
+        performSegue(withIdentifier: vcName, sender:self)
+        // Now created the all the transition segue
     }
     
     @IBAction func comedyPressed(_ sender: Any) {
