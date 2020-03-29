@@ -149,6 +149,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07R-1z-qSi">
+                                <rect key="frame" x="126" y="554" width="122" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" backgroundImage="square" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="xxi-cQ-z5O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GgZ-YZ-2Mh"/>
@@ -297,6 +307,16 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="superheroPressed:" destination="DQM-Gm-wiX" eventType="touchUpInside" id="GuU-DO-EQA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7M-aH-aQD">
+                                <rect key="frame" x="228" y="468" width="90" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" backgroundImage="square" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="lA4-sN-1j6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1248,8 +1268,9 @@
         <image name="button_down.jpg" width="72" height="72"/>
         <image name="rectangle" catalog="system" width="64" height="46"/>
         <image name="smiley.fill" catalog="system" width="64" height="60"/>
+        <image name="square" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jmV-Su-dtx"/>
+        <segue reference="lA4-sN-1j6"/>
     </inferredMetricsTieBreakers>
 </document>
