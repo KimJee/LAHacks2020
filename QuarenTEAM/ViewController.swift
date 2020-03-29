@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         // Probably add a , "Fourth" here
         //arrayOfNames = ["First","Second","Third", "Drawing"]
-        arrayOfNames = ["Nap"]
+        arrayOfNames = ["Drawing"]
 
     }
 
@@ -103,10 +103,6 @@ class ViewController: UIViewController {
      Natalia's Stuff
      
      */
-    
-    
-    //@IBAction func returnHome(_ sender: Any) {
-    //}
-    
+
 }
 

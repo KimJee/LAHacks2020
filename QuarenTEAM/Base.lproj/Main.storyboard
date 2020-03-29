@@ -384,18 +384,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHO-Jp-4fc">
-                                <rect key="frame" x="81" y="593" width="213" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
-                                <color key="tintColor" red="1" green="0.63524770760000004" blue="0.19464953330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Click for a New Suggestion">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="drawingSuggestion:" destination="mTP-54-AOH" eventType="touchUpInside" id="uUA-ac-NiH"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Draw a:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIM-tT-7we">
                                 <rect key="frame" x="154" y="47" width="67" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -403,13 +391,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIK-I4-HhK">
-                                <rect key="frame" x="120" y="622" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Find a New Activity">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDE-DD-GeA">
                                 <rect key="frame" x="24" y="512" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -542,6 +523,28 @@
                                     <action selector="reset:" destination="mTP-54-AOH" eventType="touchUpInside" id="Jld-UU-qaQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xr-Lu-9dn">
+                                <rect key="frame" x="223" y="594" width="136" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to a new activity">
+                                    <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="vbH-4V-42z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHO-Jp-4fc">
+                                <rect key="frame" x="24" y="592" width="135" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                <color key="tintColor" red="1" green="0.63524770760000004" blue="0.19464953330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="New Suggestion">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="drawingSuggestion:" destination="mTP-54-AOH" eventType="touchUpInside" id="uUA-ac-NiH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="0.96320486890000001" blue="0.75637284760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -554,7 +557,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehi-Tl-hxi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="1601"/>
+            <point key="canvasLocation" x="925.60000000000002" y="1599.8500749625189"/>
         </scene>
         <!--Nap View Controller-->
         <scene sceneID="KaW-K1-4uC">
@@ -617,6 +620,7 @@
                         <color key="backgroundColor" red="0.87096024049999998" green="0.97780994830000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Wm7-RK-nF4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TJh-x0-Lue"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YDZ-qs-Suf" sceneMemberID="firstResponder"/>
             </objects>
@@ -658,10 +662,10 @@
             </objects>
             <point key="canvasLocation" x="-58" y="2364"/>
         </scene>
-        <!--View Controller-->
+        <!--Third Nap View Controller-->
         <scene sceneID="3pP-Q3-gCV">
             <objects>
-                <viewController id="vEp-E3-Inu" customClass="ViewController" customModule="QuarenTEAM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vEp-E3-Inu" customClass="ThirdNapViewController" customModule="QuarenTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3o-Ck-yed" customClass="View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -673,15 +677,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lx8-b2-x1I">
-                                <rect key="frame" x="74" y="442" width="227" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1S-fi-CRi">
+                                <rect key="frame" x="98" y="437" width="178" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click to continue your day."/>
+                                <state key="normal" title="Click to continue your day"/>
                                 <connections>
-                                    <action selector="goToHomeScreen:" destination="vEp-E3-Inu" eventType="touchUpInside" id="ONu-jX-OYu"/>
-                                    <action selector="resetToHomeScreen:" destination="vEp-E3-Inu" eventType="touchUpInside" id="OpY-a7-4rY"/>
-                                    <action selector="returnHome:" destination="vEp-E3-Inu" eventType="touchUpInside" id="UVu-5H-Lvh"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="cws-LD-RLI"/>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="g0X-US-uTx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -692,9 +693,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GiV-Sw-cxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="3116"/>
+            <point key="canvasLocation" x="-58.399999999999999" y="3115.5922038980511"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vbH-4V-42z"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
     </resources>
