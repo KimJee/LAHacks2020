@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7C26FB3224303D2200679F1F /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB3124303D2200679F1F /* DrawViewController.swift */; };
+		7C26FB342430493400679F1F /* NapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB332430493400679F1F /* NapViewController.swift */; };
+		7C26FB362430499900679F1F /* SecondNapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26FB352430499900679F1F /* SecondNapViewController.swift */; };
+		7C26FB3C24304CAB00679F1F /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C26FB3724304CA600679F1F /* waterfall.mp3 */; };
+		7C26FB3D24304CAB00679F1F /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C26FB3824304CA800679F1F /* rain.mp3 */; };
+		7C26FB3E24304CAB00679F1F /* fireplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C26FB3924304CA900679F1F /* fireplace.mp3 */; };
+		7C26FB3F24304CAB00679F1F /* rainforest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C26FB3A24304CAB00679F1F /* rainforest.mp3 */; };
+		7C26FB4024304CAB00679F1F /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C26FB3B24304CAB00679F1F /* alarm.mp3 */; };
 		7C54408F242FEAA500F0B848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54408E242FEAA500F0B848 /* AppDelegate.swift */; };
 		7C544091242FEAA500F0B848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C544090242FEAA500F0B848 /* SceneDelegate.swift */; };
 		7C544093242FEAA500F0B848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C544092242FEAA500F0B848 /* ViewController.swift */; };
@@ -37,6 +44,13 @@
 
 /* Begin PBXFileReference section */
 		7C26FB3124303D2200679F1F /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawViewController.swift; path = ../../Nat1/DrawingApp/DrawViewController.swift; sourceTree = "<group>"; };
+		7C26FB332430493400679F1F /* NapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NapViewController.swift; sourceTree = "<group>"; };
+		7C26FB352430499900679F1F /* SecondNapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondNapViewController.swift; sourceTree = "<group>"; };
+		7C26FB3724304CA600679F1F /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		7C26FB3824304CA800679F1F /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		7C26FB3924304CA900679F1F /* fireplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fireplace.mp3; sourceTree = "<group>"; };
+		7C26FB3A24304CAB00679F1F /* rainforest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainforest.mp3; sourceTree = "<group>"; };
+		7C26FB3B24304CAB00679F1F /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 		7C54408B242FEAA500F0B848 /* QuarenTEAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuarenTEAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C54408E242FEAA500F0B848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C544090242FEAA500F0B848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +119,17 @@
 				7C544090242FEAA500F0B848 /* SceneDelegate.swift */,
 				7C544092242FEAA500F0B848 /* ViewController.swift */,
 				7C26FB3124303D2200679F1F /* DrawViewController.swift */,
+				7C26FB332430493400679F1F /* NapViewController.swift */,
+				7C26FB352430499900679F1F /* SecondNapViewController.swift */,
 				7C544094242FEAA500F0B848 /* Main.storyboard */,
 				7C544097242FEAA800F0B848 /* Assets.xcassets */,
 				7C544099242FEAA800F0B848 /* LaunchScreen.storyboard */,
 				7C54409C242FEAA800F0B848 /* Info.plist */,
+				7C26FB3B24304CAB00679F1F /* alarm.mp3 */,
+				7C26FB3924304CA900679F1F /* fireplace.mp3 */,
+				7C26FB3824304CA800679F1F /* rain.mp3 */,
+				7C26FB3A24304CAB00679F1F /* rainforest.mp3 */,
+				7C26FB3724304CA600679F1F /* waterfall.mp3 */,
 			);
 			path = QuarenTEAM;
 			sourceTree = "<group>";
@@ -236,6 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C54409B242FEAA800F0B848 /* LaunchScreen.storyboard in Resources */,
+				7C26FB3D24304CAB00679F1F /* rain.mp3 in Resources */,
+				7C26FB3E24304CAB00679F1F /* fireplace.mp3 in Resources */,
+				7C26FB3C24304CAB00679F1F /* waterfall.mp3 in Resources */,
+				7C26FB4024304CAB00679F1F /* alarm.mp3 in Resources */,
+				7C26FB3F24304CAB00679F1F /* rainforest.mp3 in Resources */,
 				7C544098242FEAA800F0B848 /* Assets.xcassets in Resources */,
 				7C544096242FEAA500F0B848 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +291,8 @@
 				7C26FB3224303D2200679F1F /* DrawViewController.swift in Sources */,
 				7C544093242FEAA500F0B848 /* ViewController.swift in Sources */,
 				7C54408F242FEAA500F0B848 /* AppDelegate.swift in Sources */,
+				7C26FB342430493400679F1F /* NapViewController.swift in Sources */,
+				7C26FB362430499900679F1F /* SecondNapViewController.swift in Sources */,
 				7C544091242FEAA500F0B848 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

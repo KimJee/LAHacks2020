@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Probably add a , "Fourth" here
-        arrayOfNames = ["First","Second","Third", "Drawing"]
-       // arrayOfNames = ["Drawing"]
+        //arrayOfNames = ["First","Second","Third", "Drawing"]
+        arrayOfNames = ["Nap"]
 
     }
 
@@ -100,11 +100,13 @@ class ViewController: UIViewController {
 
     /*
      
-     Natalia's Drawing App
+     Natalia's Stuff
      
      */
     
     
+    //@IBAction func returnHome(_ sender: Any) {
+    //}
     
 }
 

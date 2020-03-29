@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuarenTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iir-76-ltu">
@@ -53,6 +53,7 @@
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jTx-jU-HAO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -553,7 +554,145 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehi-Tl-hxi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106" y="1132"/>
+            <point key="canvasLocation" x="926" y="1601"/>
+        </scene>
+        <!--Nap View Controller-->
+        <scene sceneID="KaW-K1-4uC">
+            <objects>
+                <viewController storyboardIdentifier="Nap" id="iKh-hK-Biw" customClass="NapViewController" customModule="QuarenTEAM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kt2-Lm-hp2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68i-8U-GpR">
+                                <rect key="frame" x="45" y="318" width="284" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Take a Nap"/>
+                                <connections>
+                                    <action selector="startTimer:" destination="iKh-hK-Biw" eventType="touchUpInside" id="MoT-Id-rVJ"/>
+                                    <segue destination="qxc-ue-mYu" kind="show" id="GUP-H8-KCm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzB-VD-8wA">
+                                <rect key="frame" x="220" y="460" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Waterfall"/>
+                                <connections>
+                                    <action selector="waterfallSound:" destination="iKh-hK-Biw" eventType="touchUpInside" id="DTy-d0-uco"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3O-tr-piV">
+                                <rect key="frame" x="84" y="460" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rain"/>
+                                <connections>
+                                    <action selector="rainSound:" destination="iKh-hK-Biw" eventType="touchUpInside" id="Ltc-6c-TRu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHW-xm-tCF">
+                                <rect key="frame" x="37" y="87" width="300" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJh-Iv-Fqi">
+                                <rect key="frame" x="71" y="522" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rainforest"/>
+                                <connections>
+                                    <action selector="rainforestSound:" destination="iKh-hK-Biw" eventType="touchUpInside" id="BXt-BK-KYP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQP-96-IO0">
+                                <rect key="frame" x="220" y="522" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fireplace"/>
+                                <connections>
+                                    <action selector="fireplaceSound:" destination="iKh-hK-Biw" eventType="touchUpInside" id="Lwz-ej-9M7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87096024049999998" green="0.97780994830000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Wm7-RK-nF4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YDZ-qs-Suf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="1601"/>
+        </scene>
+        <!--Second Nap View Controller-->
+        <scene sceneID="guS-56-wVp">
+            <objects>
+                <viewController id="qxc-ue-mYu" customClass="SecondNapViewController" customModule="QuarenTEAM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ky-Mi-aGv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGz-QJ-9Qd">
+                                <rect key="frame" x="37" y="75" width="300" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have a nice nap." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sto-LR-gOm">
+                                <rect key="frame" x="102" y="445" width="171" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.041467012329999997" green="0.31409444959999999" blue="0.76805375649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ifq-v9-Fff"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4BS-hQ-WhZ"/>
+                    <connections>
+                        <outlet property="timerLabel" destination="AGz-QJ-9Qd" id="tcW-jF-wS4"/>
+                        <segue destination="vEp-E3-Inu" kind="show" identifier="segue" id="FWq-15-7AP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KbH-hv-KBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="2364"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3pP-Q3-gCV">
+            <objects>
+                <viewController id="vEp-E3-Inu" customClass="ViewController" customModule="QuarenTEAM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f3o-Ck-yed" customClass="View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq7-Pa-QeK">
+                                <rect key="frame" x="108" y="143" width="159" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lx8-b2-x1I">
+                                <rect key="frame" x="74" y="442" width="227" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click to continue your day."/>
+                                <connections>
+                                    <action selector="goToHomeScreen:" destination="vEp-E3-Inu" eventType="touchUpInside" id="ONu-jX-OYu"/>
+                                    <action selector="resetToHomeScreen:" destination="vEp-E3-Inu" eventType="touchUpInside" id="OpY-a7-4rY"/>
+                                    <action selector="returnHome:" destination="vEp-E3-Inu" eventType="touchUpInside" id="UVu-5H-Lvh"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cws-LD-RLI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87096024049999998" green="0.97780994830000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hBZ-nD-LFD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="haK-db-YH2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GiV-Sw-cxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="3116"/>
         </scene>
     </scenes>
     <resources>
