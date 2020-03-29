@@ -12,7 +12,7 @@ import AVFoundation
 class SecondNapViewController: UIViewController {
 
     @IBOutlet weak var timerLabel: UILabel!
-    var seconds = 5//1200
+    var seconds = 1200
     var timer = Timer()
     
     var audioPlayer = AVAudioPlayer()

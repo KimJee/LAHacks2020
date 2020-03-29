@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,9 +23,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iir-76-ltu">
-                                <rect key="frame" x="37" y="130" width="300" height="300"/>
+                                <rect key="frame" x="113" y="176" width="148" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button_down.jpg">
+                                <state key="normal" image="button_down.png">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -731,7 +731,7 @@
                                         <string key="content">So you want to learn Python? NICE Let's start with the very basic:  the Print Statement  Type the following code into the box below! If the code matches, you should see some output!  </string>
                                         <attributes>
                                             <color key="NSColor" red="0.03053893676" green="0.76796478430000004" blue="0.055948070179999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1264,13 +1264,13 @@
             <point key="canvasLocation" x="4983.1999999999998" y="-335.08245877061472"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="button_down.jpg" width="72" height="72"/>
-        <image name="rectangle" catalog="system" width="64" height="46"/>
-        <image name="smiley.fill" catalog="system" width="64" height="60"/>
-        <image name="square" catalog="system" width="64" height="56"/>
-    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lA4-sN-1j6"/>
+        <segue reference="g0X-US-uTx"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="button_down.png" width="72" height="72"/>
+        <image name="rectangle" catalog="system" width="128" height="93"/>
+        <image name="smiley.fill" catalog="system" width="128" height="121"/>
+        <image name="square" catalog="system" width="128" height="114"/>
+    </resources>
 </document>

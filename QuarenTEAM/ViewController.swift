@@ -26,9 +26,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Probably add a , "Fourth" here
-        //arrayOfNames = ["First","Second","Third", "Drawing"]
+        arrayOfNames = ["First","Second","Third", "Fourth", "Drawing", "Nap"]
         //arrayOfNames = ["Drawing", "Joke", "Movies", "Nap"]
-        arrayOfNames = ["Joke"]
+        //arrayOfNames = ["Joke"]
         
         // our arrayOfNames must be segway name
 
@@ -39,11 +39,10 @@ class ViewController: UIViewController {
         let randomNumber = Int(arc4random() % numberOfNames)
         let vcName = arrayOfNames[randomNumber]
         
-       // let vc = storyboard?.instantiateViewController(withIdentifier: vcName)
-       // self.present(vc!, animated: true, completion: nil)
+        let vc = storyboard?.instantiateViewController(withIdentifier: vcName)
+        vc?.modalPresentationStyle = .fullScreen
+        self.present(vc!, animated: true, completion: nil)
         
-        performSegue(withIdentifier: vcName, sender:self)
-        // Now created the all the transition segue
     }
     
     @IBAction func comedyPressed(_ sender: Any) {
